@@ -1,0 +1,105 @@
+body{
+    background-color: lightgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wrapper{
+    background-color: whitesmoke;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 5% 25% 5% 25%;
+    padding: 10px 0px;
+}
+#left{
+    background-color: whitesmoke;
+    width: 50%;
+    margin: 20px 0px 20px -30px;
+    border-radius: 10px;
+}
+#photo-container #photo-main{
+    background-color: greenyellow;
+    height: 380px;
+    padding: 15px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#photo-container #photo-main #icons{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#photo-container #photo-main #apple-image{
+    margin: 0px 0px 0px -80px;
+    z-index: 10;
+}
+.colour-options{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.options{
+    border: 1px solid #80808096;
+    margin: 0px 1px;
+    border-radius: 10px;
+}
+/*  Right Section */
+#right{
+    margin: 30px 15px;
+}
+#right #info #info-apple > h1{
+    color: #606060;
+}
+#right #info #info-apple > h6{
+    color: rgb(156, 154, 154);
+    margin-top: -20px;
+}
+#right #info #info-apple #price{
+    color: red;
+}
+#right #info #info-apple #price #Symbol{
+    margin-top: -10px;
+    margin-right: 10px;
+    display: inline;
+}
+#right #info #info-apple #price > h1{
+    display: inline;
+    font-weight: 0.5rem;
+    font-size: 3rem;
+}
+.heading-secondary{
+    color: #9c9c9c;
+    font-size: 0.5rem;
+}
+.sec-option{
+    border-radius: 0px;
+    border: 0px;
+}
+.sec-option > img{
+    height: 30px;
+    width: 30px;
+}
+.selected{
+    padding: 1px 1px;
+    border-radius: 2px;
+    border: 1px solid #808080;
+}
+#list{
+    font-size: 13px;
+}
+#button > button{
+    width: 10rem;
+    height: 3rem;
+    background-color: red;
+    border-radius: 2px;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 2px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+#button > button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 77, 77);
+}
